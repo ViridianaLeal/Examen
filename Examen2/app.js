@@ -1,7 +1,7 @@
 let dia=document.querySelector("#dia")
 let mes=document.querySelector("#mes")
 let fecha=document.querySelector("#fecha")
-let imagen=document.querySelector("#imagen")
+let imagen=""
 
 dia.oninput=()=>{calcular()} 
 mes.onchange=()=>{calcular()} 
@@ -17,118 +17,118 @@ const calcular=()=>{
     setTimeout(()=>{   
      switch(vmes) {
     	case "Enero":
-    		if(vdia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Capricornio.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Capricornio"
-    		}else if(vdia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Acuario.jpg' width='200px' height='100px'>";		
-				imagen.innerHTML="Acuario"
+    		if(vvdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Capricornio.jpg' width='200px' height='100px'>";
+				//imagen="Capricornio"
+    		}else if(vvdia>=21) {
+                imagen="<img src='/Examen2/imgS/Acuario.jpg' width='200px' height='100px'>";		
+				//imagen="Acuario"
     		}
         break;
     	case "Febrero":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Acuario.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Acuario"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Piscis.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Piscis"			
+    		if(vvdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Acuario.jpg' width='200px' height='100px'>";
+				//imagen="Acuario"
+    		}else if(vvdia>=21) {
+                imagen="<img src='/Examen2/imgS/Piscis.jpg' width='200px' height='100px'>";
+				//imagen="Piscis"			
     		}
         break;
     	case "Marzo":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Piscis.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Piscis"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Aries.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Aries"
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Piscis.jpg' width='200px' height='100px'>";
+				//imagen="Piscis"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Aries.jpg' width='200px' height='100px'>";
+				//imagen="Aries"
     		}
         break;
     	case "Abril":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Aries.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Aries"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Tauro.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Tauro"
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Aries.jpg' width='200px' height='100px'>";
+				//imagen="Aries"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Tauro.jpg' width='200px' height='100px'>";
+				//imagen="Tauro"
     		}
         break;	
     	case "Mayo":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Tauro.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Tauro"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Geminis.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Geminis"
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Tauro.jpg' width='200px' height='100px'>";
+				//imagen="Tauro"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Geminis.jpg' width='200px' height='100px'>";
+				//imagen="Geminis"
     		}
         break;	
     	case "Junio":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Geminis.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Geminis"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Cancer.jpg' width='200px' height='100px'>";	
-				imagen.innerHTML="Cancer"	
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Geminis.jpg' width='200px' height='100px'>";
+				//imagen="Geminis"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Cancer.jpg' width='200px' height='100px'>";	
+				//imagen="Cancer"	
     		}
         break;	
     	case "Julio":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Cancer.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Cancer"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Leo.jpg' width='200px' height='100px'>";	
-				imagen.innerHTML="Leo"		
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Cancer.jpg' width='200px' height='100px'>";
+				//imagen="Cancer"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Leo.jpg' width='200px' height='100px'>";	
+				//imagen="Leo"		
     		}
         break;	
     	case "Agosto":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Leo.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Leo"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Virgo.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Virgo"
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Leo.jpg' width='200px' height='100px'>";
+				//imagen="Leo"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Virgo.jpg' width='200px' height='100px'>";
+				//imagen="Virgo"
     		}
         break;	
     	case "Septiembre":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Virgo.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Virgo"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Libra.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Libra"
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Virgo.jpg' width='200px' height='100px'>";
+				//imagen="Virgo"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Libra.jpg' width='200px' height='100px'>";
+				//imagen="Libra"
     		}
         break;	
     	case "Octubre":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Libra.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Libra"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Escorpio.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Escorpio"
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Libra.jpg' width='200px' height='100px'>";
+				//imagen="Libra"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Escorpio.jpg' width='200px' height='100px'>";
+				//imagen="Escorpio"
     		}
         break;	
     	case "Noviembre":
-    		if(dia<=20) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Escorpio.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Escorpio"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Sagitario.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Sagitario"
+    		if(vdia<=20) {
+                imagen="<img src='/Examen2/imgS/Escorpio.jpg' width='200px' height='100px'>";
+				//imagen="Escorpio"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Sagitario.jpg' width='200px' height='100px'>";
+				//imagen="Sagitario"
     		}
         break;	
     	case "Diciembre":
-    		if(dia<=20) {
-    			imagen.innerHTML="<img src='/Examen2/imgS/Sagitario.jpg' width='200px' height='100px'>";
-				imagen.innerHTML="Sagitario"
-    		}else if(dia>=21) {
-                imagen.innerHTML="<img src='/Examen2/imgS/Capricornio.jpg' width='200px' height='100px'>";	
-				imagen.innerHTML="Capricornio"
+    		if(vdia<=20) {
+    			imagen="<img src='/Examen2/imgS/Sagitario.jpg' width='200px' height='100px'>";
+				//imagen="Sagitario"
+    		}else if(vdia>=21) {
+                imagen="<img src='/Examen2/imgS/Capricornio.jpg' width='200px' height='100px'>";	
+				//imagen="Capricornio"
     		}
         break;	
     	}
 fecha.innerHTML=`<div>
      <h1>Fecha</h1>
      <div><label>${vdia+' de '+vmes}</label></div>
-	 <div><label>${imagen}</label></div>
+	<div>${imagen}</div>
      </div>`
 	
      
