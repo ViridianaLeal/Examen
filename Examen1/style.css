@@ -1,0 +1,29 @@
+*{
+margin: auto;
+padding: 50px;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+div{
+    background: rgba(241, 218, 6, 0.897);
+    align-items: center;
+}
+img{
+    width: 900px;
+    height: 600px;
+}
+h1{
+    font-size: 50px;
+}
+label{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+span{
+    font-size: 40px;
+}
